@@ -1,0 +1,15 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+gedarcdir=@GEDARCDIR@
+gedadatadir=@GEDADATADIR@
+
+Name: libgattrib
+Description: Library providing an attribute sheet editor to gEDA components
+Requires: glib-2.0
+Requires.private:
+Version: @DATE_VERSION@
+Libs: -L${libdir} -lgattrib
+Libs.private:
+Cflags: -I${includedir}

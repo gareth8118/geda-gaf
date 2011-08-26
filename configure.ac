@@ -207,6 +207,11 @@ AC_CONFIG_FILES([Makefile
                  gaf/Makefile
                  gaf/po/Makefile.in
 
+		 libgattrib/Makefile
+		 libgattrib/libgattrib.pc
+		 libgattrib/include/Makefile
+		 libgattrib/src/Makefile
+
                  gschem/Makefile
                  gschem/po/Makefile.in
                  gschem/docs/Makefile
