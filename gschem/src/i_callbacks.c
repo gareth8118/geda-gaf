@@ -2758,6 +2758,20 @@ DEFINE_I_CALLBACK(options_show_log_window)
   x_log_open (w_current);
 }
 
+/*! \brief Callback to display attribute sheet
+ * \par Function Description
+ * Sanity-checks the passed-in top level then
+ * opens an attribute sheet window.
+ */
+DEFINE_I_CALLBACK(options_show_attrib_sheet_window)
+{
+  GschemToplevel *w_current = GSCHEM_TOPLEVEL (data);
+
+  g_return_if_fail (w_current != NULL);
+
+  x_attrib_sheet_open();
+}
+
 
 /*! \todo Finish function documentation!!!
  *  \brief

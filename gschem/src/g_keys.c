@@ -197,6 +197,7 @@ DEFINE_G_KEYS(options_rubberband)
 DEFINE_G_KEYS(options_magneticnet)
 DEFINE_G_KEYS(options_show_log_window)
 DEFINE_G_KEYS(options_show_coord_window)
+DEFINE_G_KEYS(options_show_attrib_sheet_window)
 
 DEFINE_G_KEYS(help_about)
 DEFINE_G_KEYS(help_hotkeys)

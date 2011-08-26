@@ -1012,6 +1012,7 @@
 (global-set-key "O <Shift>S" '&options-snap-size)
 (global-set-key "O L" '&options-show-log-window)
 (global-set-key "O C" '&options-show-coord-window)
+(global-set-key "O <Shift>A" '&options-show-attrib-sheet-window)
 
 (global-set-key "P M" '&page-manager)
 (global-set-key "P N" '&page-next)
@@ -1271,7 +1272,8 @@
            (,(N_ "Toggle Net _Rubberband")   &options-rubberband)
            (,(N_ "Toggle _Magnetic Net")     &options-magneticnet)
            (,(N_ "Show _Log Window...")      &options-show-log-window)
-           (,(N_ "Show _Coord Window...")    &options-show-coord-window)))
+           (,(N_ "Show _Coord Window...")    &options-show-coord-window)
+           (,(N_ "Show _attribute sheet...") &options-show-attrib-sheet-window)))
 
 (define help-menu-items
 ;;

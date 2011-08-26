@@ -92,6 +92,7 @@ gschem_SOURCES = \
 	parsecmd.c \
 	s_stretch.c \
 	x_attribedit.c \
+	x_attrib_sheet.c \
 	x_autonumber.c \
 	x_basic.c \
 	x_clipboard.c \

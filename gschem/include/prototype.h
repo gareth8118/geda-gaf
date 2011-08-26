@@ -147,6 +147,7 @@ SCM g_keys_options_rubberband(SCM rest);
 SCM g_keys_options_magneticnet(SCM rest);
 SCM g_keys_options_show_log_window(SCM rest);
 SCM g_keys_options_show_coord_window(SCM rest);
+SCM g_keys_options_show_attrib_sheet_window(SCM rest);
 SCM g_keys_help_about(SCM rest);
 SCM g_keys_help_hotkeys(SCM rest);
 SCM g_keys_cancel(SCM rest);
@@ -365,6 +366,7 @@ void i_callback_options_snap(gpointer data, guint callback_action, GtkWidget *wi
 void i_callback_options_rubberband(gpointer data, guint callback_action, GtkWidget *widget);
 void i_callback_options_magneticnet(gpointer data, guint callback_action, GtkWidget *widget);
 void i_callback_options_show_log_window(gpointer data, guint callback_action, GtkWidget *widget);
+void i_callback_options_show_attrib_sheet_window(gpointer data, guint callback_action, GtkWidget *widget);
 void i_callback_cancel(gpointer data, guint callback_action, GtkWidget *widget);
 void i_callback_help_about(gpointer data, guint callback_action, GtkWidget *widget);
 void i_callback_help_hotkeys(gpointer data, guint callback_action, GtkWidget *widget);
@@ -587,6 +589,8 @@ void gschem_alignment_combo_set_align (GtkWidget *widget, int align);
 gint option_menu_get_history(GtkOptionMenu *option_menu);
 void attrib_edit_dialog_ok(GtkWidget *w, GschemToplevel *w_current);
 void attrib_edit_dialog(GschemToplevel *w_current, OBJECT *attr_obj, int flag);
+/* x_attrib_sheet.c */
+void x_attrib_sheet_open();
 /* x_autonumber.c */
 void autonumber_text_dialog(GschemToplevel *w_current);
 /* x_basic.c */
