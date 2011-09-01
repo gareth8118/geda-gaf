@@ -38,9 +38,16 @@
  * \par Function Description
  * Open the attribute sheet. This function should actually
  * pull in the libgattrib classes.
- * \todo Make this function actually do something
+ *
+ * \param w_current The schematic top level variable
+ *
  */
-void x_attrib_sheet_open()
+void x_attrib_sheet_open(GSCHEM_TOPLEVEL *w_current)
 {
-  ;
+  if (!w_current->aswindow)
+    {
+      w_current->aswindow = gtk_window_new(GTK_WINDOW_TOPLEVEL);
+      gtk_window_set_title(GTK_WINDOW(w_current->aswindow), "Attribute Sheet");
+      gtk_widget_show(w_current->aswindow);
+    }
 }

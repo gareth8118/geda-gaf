@@ -2769,7 +2769,7 @@ DEFINE_I_CALLBACK(options_show_attrib_sheet_window)
 
   g_return_if_fail (w_current != NULL);
 
-  x_attrib_sheet_open();
+  x_attrib_sheet_open (w_current);
 }
 
 
