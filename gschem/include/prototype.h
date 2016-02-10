@@ -590,7 +590,7 @@ gint option_menu_get_history(GtkOptionMenu *option_menu);
 void attrib_edit_dialog_ok(GtkWidget *w, GschemToplevel *w_current);
 void attrib_edit_dialog(GschemToplevel *w_current, OBJECT *attr_obj, int flag);
 /* x_attrib_sheet.c */
-void x_attrib_sheet_open(GSCHEM_TOPLEVEL *w_current);
+void x_attrib_sheet_open(GschemToplevel *w_current);
 /* x_autonumber.c */
 void autonumber_text_dialog(GschemToplevel *w_current);
 /* x_basic.c */

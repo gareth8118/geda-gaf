@@ -42,7 +42,7 @@
  * \param w_current The schematic top level variable
  *
  */
-void x_attrib_sheet_open(GSCHEM_TOPLEVEL *w_current)
+void x_attrib_sheet_open(GschemToplevel *w_current)
 {
   if (!w_current->aswindow)
     {
