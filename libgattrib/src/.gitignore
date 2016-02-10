@@ -1,0 +1,8 @@
+*.lo
+.deps
+.libs
+Makefile
+Makefile.in
+libgattrib.la
+*.o
+*~
