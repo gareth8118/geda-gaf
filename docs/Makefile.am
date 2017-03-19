@@ -1,5 +1,7 @@
-
-SUBDIRS = toplevel wiki scheme-api
+if ENABLE_DOCS
+MANUAL_DIR=manual
+endif
+SUBDIRS = toplevel wiki scheme-api ${MANUAL_DIR}
 
 EXTRA_DIST = ChangeLog-1.0 ChangeLog
 

@@ -157,6 +157,8 @@ AX_OPTION_ASSERT
 AX_OPTION_DEPRECATED
 # Viewing documentation
 AX_OPTION_URI_VIEWER
+# User manual
+AX_OPTION_DOCS
 # API documentation
 AX_OPTION_DOXYGEN
 # XDG desktop files
